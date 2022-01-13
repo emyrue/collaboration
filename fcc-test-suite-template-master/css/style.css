@@ -1,11 +1,22 @@
 #header-img{
     width: 300px;
     height: auto;
+    margin-left: 75%;
 }
 
 #header{
-    display: inline-flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px;
+}
+
+#video-section{
+    display: flex;
+    justify-content: center;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
 }
