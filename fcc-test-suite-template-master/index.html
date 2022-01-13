@@ -4,6 +4,30 @@
     <meta charset="UTF-8">
     <title>Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css">
+
+    <style>
+      #nav-bar{
+        position: fixed;
+      }
+
+      #header-img{
+          width: 300px;
+          height: auto;
+      }
+
+      #header{
+          display: inline-flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 30px;
+      }
+
+      @media only screen and (max-width: 600px) {
+        body {
+          background-color: lightblue;
+        }
+      }
+      </style>
   </head>
 
   <body>
@@ -23,7 +47,7 @@
         <h2>MY FIRST FORM</h2>
         <p id="description">Esta es la creación de mi primer formulario para el proyecto ¨Build a Survey Form¨ de Free Code Camp.</p>
         
-        <form id="form" autocomplete="on" name="myForm" action="https://www.freecodecamp.com/email-submit" style="display: flex;flex-direction: column;">
+        <form id="form" autocomplete="on" name="myForm" action="https://www.freecodecamp.com/email-submit">
           <label for="email" id="email-label">Email:</label>
           <input type="email" id="email" name="email" placeholder="Enter your email" required>
           <label for="name" id="name-label">Name: </label>
