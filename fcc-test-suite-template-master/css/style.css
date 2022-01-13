@@ -1,5 +1,9 @@
 #header-img{
     margin: auto;
-    width: 50px;
+    width: 300px;
     height: auto;
+}
+
+#header{
+    width: 100%;
 }
